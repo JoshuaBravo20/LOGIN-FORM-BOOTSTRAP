@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css">
+    <title>LOGIN</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card" style="width: 55rem; height: 25rem;">
+            <div class="card-body">
+                <div class="row">
+                    <div id="left" class="col-7">
+                        <h4 class="card-title">LOGO</h4>
+                        <h6 id="emailText">Email</h6>
+                        <h6 id="passwordText">Contraseña</h6>
+                        <i class="far fa-envelope" id="envelope"></i>
+                        <i class="far fa-eye" id="eye"></i>
+                        <form>
+                            <div class="bars">
+                                <div class="form-group" id="email-field">
+                                    <!-- <label id="label1" for="exampleInputEmail1">Email</label> -->
+                                    <input required type="email" class="form-control" id="emailBar"
+                                        aria-describedby="emailHelp" placeholder="myemail@email.com">
+                                </div>
+                                <div class="form-group" id="password-field">
+                                    <!-- <label id="label2" for="exampleInputPassword1">Contrasena</label> -->
+                                    <input required type="password" class="form-control" id="passwordBar"
+                                        placeholder="•••••••••">
+                                </div>
+                            </div>
+                            <div class="form-group form-check" id="rememberBox">
+                                <input type="checkbox" class="form-check-input" id="remember">
+                                <label class="form-check-label" for="exampleCheck1">Recordar</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary" id="loginButton">Iniciar sesión</button>
+                            <small id="emailHelp" class="form-text text-info">No recuerdas tu contraseña?</small>
+
+                        </form>
+                    </div>
+                    <div id="right" class="col-5">
+                        <h3>Bienvenido</h3>
+                        <h5>Para iniciar sesión debe ingresar su usuario y contraseña.</h5>
+                        <h6>No posee una cuenta?</h6>
+                        <a id="register" href="#" class="btn btn-success">Registrarse</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
